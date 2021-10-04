@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinyas</title>
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+   .mother-container{
+  height: 100%;
+  background: linear-gradient(to bottom, #F3F5FC 55%, white 45%);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+}
+</style>
+<body>
+  <div class="mother-container">
+
+        <!-- NAVBAR -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./Assets/Logo 1.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-drop nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About
+                    <img class="dropdown-arrow" src="./Assets/Vector (10).svg" alt="">
+                  </a>
+                  <ul class="about-drpdown-menu dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item nav-d-item" href="#">What We Do</a></li>
+                    <li><a class="dropdown-item nav-d-item" href="#">Our Journey</a></li>
+                    <li><a class="dropdown-item nav-d-item" href="#">Our Facilities</a></li>
+                    <li><a class="dropdown-item nav-d-item" href="#">Leadership</a></li>
+                    <li><a class="dropdown-item nav-d-item" href="#">Team</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Careers</a>
+                </li>
+                <li style="padding-right: 1.875rem; border-right: 1px solid #CED3D6;" class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li style="padding-left: 1.875rem;" class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    EN
+                  </a>
+                  <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item nav-d-item" href="#">What We Do</a></li>
+                    <li><a class="dropdown-item nav-d-item" href="#">Our Journey</a></li>
+                    <li><a class="dropdown-item nav-d-item" href="#">Our Facilities</a></li>
+                    <li><a class="dropdown-item nav-d-item" href="#">Leadership</a></li>
+                    <li><a class="dropdown-item nav-d-item" href="#">Team</a></li>
+                  </ul> -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- CONTACT US LANDING -->
+
+        <div class="cul">
+          <h2>We love to hear from you!</h2>
+          <p>We love to hear from our adoring visiters and feel free to connect with us.</p>
+        </div>
+        
+        <div class="messaging">
+          <div class="m-img">
+          <img src="./Assets/Asset 1 6.svg" alt=""> 
+          </div>
+          <form class="sm-form">
+              <h5>Get in touch and let us know how we can help.</h5>
+              <div class="sm-form-line">
+                <div class="first-name p-0 ">
+                  <label for="First-name">First-name*</label>
+                  <input class="sm-active" type="text" required>
+                </div>
+                <div class="last-name p-0">
+                  <label for="Last-name">Last-name*</label>
+                  <input class="sm-active" type="text" required>
+                </div>
+                <div class="email p-0 ">
+                  <label for="email">Email ID*</label>
+                  <input class="sm-active" type="email" required>
+                </div>
+                <div class="ph-no p-0">
+                  <label for="phone no">Phone Number*</label>
+                  <input class="sm-active" type="tel" pattern="[0-9]{10}" size="10" required>
+                </div>
+              </div>
+              <div class="m-ta">
+                <label for="floatingTextarea2">Message</label>
+                <textarea class="form-control sm-active m-input" id="floatingTextarea2" style="height: 160px"></textarea>
+              </div>
+              <button id="csm" class="btn sm-form-btn" type="submit">
+                Send
+                <img id="btn-arrow" src="./Assets/Vector (11).svg" alt="">
+              </button>
+          </form>
+        </div>  
+
+        <!-- LOCATION -->
+
+        <div class="location">
+          <div class="l-left">
+            <h3>Where we are located</h3>
+            <div class="l-left-bullets">
+              <img src="./Assets/icons8_email 1.svg" alt="">
+              <p>No.26A, Nelagaderanahalli, Peenya 2nd Phase,
+                Bengaluru-560058, India</p>
+            </div>
+            <div class="l-left-bullets">
+              <img src="./Assets/icons8_phone 1.svg" alt="">
+              <p>9876543210</p>
+            </div>
+            <div class="l-left-bullets">
+              <img src="./Assets/icons8_address 1.svg" alt="">
+              <p>info@vinyasme.com</p>
+            </div>
+          </div>
+          <div class="l-right">
+            <img src="./Assets/Asset 1 3.svg" alt="">
+          </div>
+        </div>
+
+        <!-- MAP -->
+        <div class="bigmap">
+        <div class="l-map">
+          <img src="./Assets/Rectangle 29.svg" alt="">
+        </div>
+      </div>
+ 
+
+      <div class="smallmap">
+        <div class="l-map">
+          <img src="./Assets/mobilemap.svg" alt="">
+        </div>
+      </div>
+
+        <!-- FOOTER -->
+
+        <div class="footer-cont">
+          <div class="bottom-img">
+            <img src="./Assets/Group 27.svg" alt="">
+          </div>
+          <div class="footer">
+            <div class="footer-left">
+              <p>Follow us</p>
+              <img src="./Assets/icons8_facebook_2 1.svg" alt="">
+              <img src="./Assets/icons8_linkedin_1 1.svg" alt="">
+              <img src="./Assets/icons8_instagram_3 1.svg" alt="">
+              <img style="padding-right: 0;" src="./Assets/icons8_twitter_5 1.svg" alt="">
+            </div>
+            <div class="footer-right">
+              <p>Copyright © 2021</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+  
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- CUSTOM JS -->
+  <script src="./main.js"></script>
+</body>
+</html>  
